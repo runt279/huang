@@ -1,0 +1,18 @@
+public class Main {
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.print("请输入数字：");
+	int n = sc.nextInt();//获取键盘输入
+        if (n>=60 && n<=69) {
+            System.out.println("您的游戏等级：合格");
+        } else if (n>=70 && n<=79) {
+            System.out.println("您的游戏等级：中");
+        } else if(n>=80  &&  n<89) {
+            System.out.println("您的游戏等级：良好");
+        }  else if(n>=90) {
+        	System.out.println("您的游戏等级：优秀");  
+        }else {
+        	System.out.println("您的游戏等级：不合格");
+        }
+        }
+    }
