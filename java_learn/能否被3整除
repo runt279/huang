@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class EvenOrOdd {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("请输入数字：");
+		int iNum = sc.nextInt();//获取键盘输入
+		if(iNum%3==0) {
+			System.out.println("数字 "+ iNum + " 能被3整除");
+		}
+		else{
+			System.out.println("数字 "+ iNum + " 不能被3整除");
+		}
+	}
+
+}
