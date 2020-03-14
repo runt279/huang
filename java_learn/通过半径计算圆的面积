@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class CalcArea {
+	static final float PI=3.14f;
+	public static void main(String[] args)
+	{
+		float fRadius;
+		float fArea=0;
+		System.out.print("请输入半径：");
+	
+		Scanner sc=new
+Scanner(System.in);
+		fRadius=sc.nextFloat();
+		fArea=PI*fRadius*fRadius;
+		System.out.println("半径为"+fRadius+"的圆面积为"+fArea);
+	}	
+
+}
